@@ -265,6 +265,7 @@ img{
     -ms-overflow-style: none;
 }
 .card-img {
+    display: flex;
     align-self: center;
     flex-shrink: 0;
     margin-bottom: 1rem;
@@ -273,9 +274,4 @@ img{
     transition: -webkit-transform .2s linear;
     transition: transform .2s linear;
     transition: transform .2s linear, -webkit-transform .2s linear;
-}
-.image {
-    display: block;
-    position: relative;
-    overflow: hidden;
 }
